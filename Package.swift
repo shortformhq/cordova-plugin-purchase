@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", "6.0.0"..<"10.0.0")
     ],
-    targets: [f
+    targets: [
         .target(
             name: "InAppPurchase",
             dependencies: [
